@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:src="@mipmap/ic_launcher"
+    android:id="@+id/img"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/group1"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/call"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_toRightOf="@id/img"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:id="@+id/name2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="030278906711"
+        android:layout_toRightOf="@id/img"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:layout_below="@id/name2"
+        android:id="@+id/number2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3660209153565"
+        android:layout_toRightOf="@id/img"
+        android:layout_marginLeft="50dp"
+        android:textSize="15dp"
+        android:layout_below="@id/number2"
+        android:id="@+id/cnic2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17dp"
+        android:textColor="#c22626"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/group1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B+"
+        android:textColor="#4f9b52"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:id="@+id/group1"
+        android:layout_alignParentRight="true"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#84ffe4"
+        android:layout_below="@id/cnic2"></View>
+</RelativeLayout>

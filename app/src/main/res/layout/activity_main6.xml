@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bb"
+    android:layout_height="match_parent"
+    tools:context="com.example.sharif.blood_donaters.Main6Activity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/u_name1"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:hint="Enter your name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/u_cnic1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/u_name1"
+        android:hint="Enter your CNIC"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/u_num1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/u_cnic1"
+        android:hint="Enter your number"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u_num1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/spinner"></Spinner>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:id="@+id/reg1"
+        android:layout_below="@id/spinner"/>
+</RelativeLayout>
